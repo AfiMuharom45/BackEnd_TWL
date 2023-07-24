@@ -14,7 +14,7 @@ router.get('/products', async (req, res) => {
 });
 
 // Rute untuk mendapatkan detail produk berdasarkan ID
-router.get('/products/:id', async (req, res) => {
+router.get('/products/:id', async (req, res) => { 
     try {
         const productId = req.params.id;
         console.log(productId);
